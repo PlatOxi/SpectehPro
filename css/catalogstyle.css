@@ -151,6 +151,10 @@ body, html {
 .equipment-menu-nav {
 	float: left;
 }
+.equipment-menu-nav ul {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
 .logo-img-mini {
 	float: left;
 	padding-right: 10px;
@@ -158,6 +162,9 @@ body, html {
 .subtitles-equipment {
 	font-weight: bold;
 	font-size: 26px;
+}
+.equipment-menu-nav li {
+	margin-bottom: 0px;
 }
 .equipment-menu-nav a {
      font-weight: normal;
@@ -170,30 +177,41 @@ body, html {
 	padding: 0;
 }
 .btn-download-pdf {
-	padding-left: 10px;
-background-color: #354b60;
-
+  background-color: #354b60;
+  width: 220px;
+  height: 36px;
 }
-/*---Slider---*/
+.btn-download-pdf a {
+	display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border: 0px solid #354b60;
+  padding-top: 7px;
+}
+.btn-download-pdf a:before {
+	content: url(../Icon/Download-arrow.png);
+	padding-right: 15px;
+	padding-left: 15px;
+}
+/*---equipments---*/
+.equipments {
+}
 
-.Slider {
+.equipment {
 	float: left;
+	box-sizing:border-box;
+	width: 240px;
+	margin-top: 25px;
+}
+.to-right {
 	margin-left: 130px;
+	margin-right: 80px;
 }
-.equipment-1-2 {
-	float: left;
-}
-.equipment-1 {
-	float: left;
-	margin-bottom: 50px;
-}
-.equipment-3-4 {
-	float: right;
-	margin-left: 80px;
-}
-.equipment-3 {
-	float: right;
-	margin-bottom: 50px;
+.clear-box {
+  clear: left;
+  margin-left: 360px;
+  margin-right: 80px;
 }
 .Cat-315D {
 	font-size: 21px;
