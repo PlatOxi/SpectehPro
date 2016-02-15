@@ -150,6 +150,7 @@ body, html {
 }
 .equipment-menu-nav {
 	float: left;
+	width: 30%;
 }
 .equipment-menu-nav ul {
 	margin-top: 30px;
@@ -172,9 +173,23 @@ body, html {
      text-decoration: underline;
      color: #353535;
 }
+.equipment-menu-nav a:hover{
+font-weight: bold;
+}
+.equipment-menu-nav a:active{
+	text-decoration: none;
+}
 .equipment-menu-nav ul {
 	list-style-type: none;
 	padding: 0;
+}
+.active-link-nav-menu a{
+   font-weight: bold;
+}
+.active-link-nav-menu a:before {
+	content: url(../Icon/Black-arrow-to-right.png);
+	padding-right:10px;
+
 }
 .btn-download-pdf {
   background-color: #354b60;
@@ -188,30 +203,56 @@ body, html {
   text-decoration: none;
   border: 0px solid #354b60;
   padding-top: 7px;
+  padding-bottom: 7px;
 }
 .btn-download-pdf a:before {
 	content: url(../Icon/Download-arrow.png);
-	padding-right: 15px;
+	padding-right: 10px;
 	padding-left: 15px;
+}
+.btn-download-pdf a:hover {
+	font-weight: normal;
+}
+.btn-download-pdf:hover {
+background-color: #46617a;
+}
+.btn-download-pdf:active {
+	background-color: #567999;
 }
 /*---equipments---*/
 .equipments {
+	width: 70%;
+	float: left;
+	margin-top: 30px;
 }
 
 .equipment {
 	float: left;
 	box-sizing:border-box;
-	width: 240px;
-	margin-top: 25px;
+	width: 50%;
+	padding-left: 90px;
+	padding-bottom: 55px;
 }
-.to-right {
-	margin-left: 130px;
-	margin-right: 80px;
-}
+
 .clear-box {
-  clear: left;
-  margin-left: 360px;
-  margin-right: 80px;
+ clear: left;
+ position: relative;
+ overflow: hidden;
+}
+.clear-box-new {
+	position: absolute;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	display: block;
+	background-color:#00c22e;
+	text-align: center;
+	transform: rotate(45deg);
+	left: 73%;
+	top: 2%;
+	width: 120px;
+	height: 25px;
+	padding-left: 7px;
 }
 .Cat-315D {
 	font-size: 21px;
@@ -221,7 +262,7 @@ body, html {
 	font-weight: bold;
 	font-size: 18px;
 	margin:0 auto;
-	padding-bottom:25px;
+	padding-bottom:20px;
 	padding-top: 40px;
 }
 .price {
@@ -230,62 +271,110 @@ body, html {
 .btn-rent-detail {
 	font-size: 0;
 }
-.btn-rent {
+.button-equipment {
+	display: inline-block;
 	font-weight: normal;
 	font-size: 16px;
 	text-decoration: none;
 	background-color: #f3c331;
 	color: #ffffff;
-	border: 1px solid #f3c331;
-	padding: 10px 10px;
+	border: 0px solid #f3c331;
 	outline: none;
 	cursor: pointer;
+	width:35%;
+	text-align: center;
+	padding: 7px 10px;
 }
 .btn-detail {
-	font-weight: normal;
-	font-size: 16px;
-	text-decoration: none;
 	background-color: #354b60;
-	color: #ffffff;
-	border: 1px solid #354b60;
-	padding:10px 10px;
-	outline: none;
-	cursor: pointer;
 }
+.button-equipment:hover {
+background-color: #ffd966;
+}
+.button-equipment:active {
+	background-color: #ffc600;
+}
+.btn-detail:hover {
+	background-color: #46617a;
+}
+.btn-detail:active {
+	background-color: #567999;
+}
+.page-number li {
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+	}
+	.page-number a {
+		text-decoration: none;
+		color:#353535;
+	}
+	.active-page-number {
+		background-color:#354b60;
+		border: 0px solid #354b60;
+		padding: 1px 6px;
+		border-radius: 3px;
+}
+.page-number {
+	margin-top: 50px;
+	margin-bottom: 45px;
+	text-align: center;
+	clear: both;
+}
+.page-number a{
+ 	border: 1px solid rgba(0, 0, 0, 0);
+ 	padding: 1px 6px;
 
+}
+.page-number a:hover {
+   border: 1px solid #9aa5af;
+   padding: 1px 6px;
+}
+.page-number a:active {
+	border: 1px solid #354b60;
+	padding: 1px 6px;
+}
 /*speials*/
 .specials{
-	background-image: url(Specials.png);
+	background-image: url(../Icon/Specials.png);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .subtitles-specials {
 	font-family:'PT Sans', sans-serif;
 	font-weight: bold;
 	font-size: 26px;
 	color: #ececec;
-	margin-left: 110px;
-}
-.special {
-	width: 300px;
-	height: 400px;
-}
-.special-equipment-1 {
-	float: left;
-	background:#ffffff;
-	margin-right: 10px;
-}
-.special-equipment-2{
-	float: left;
-	background:#ffffff;
-	margin-left: 20px;
-}
-.special-equipment-3{
-	float: left;
-	background:#ffffff;
-	margin-left: 20px;
 }
 .special-equipment {
-	margin-left:110px;
+	width: 100%;
+}
+.special-product {
+  float: left;
+  width: 31%;
+  background-color: #ffffff;
+  margin-right:20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.sale-box {
+	position: relative;
+	overflow: hidden;
+}
+.sale {
+	position: absolute;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	display: block;
+	background-color:#d12222;
+	text-align: center;
+	transform: rotate(45deg);
+	left: 72%;
+	top: 2%;
+	width: 120px;
+	height: 30px;
+	padding-top: 5px;
 }
 .excavator-img-5 {
 	margin-left: 40px;
@@ -313,43 +402,68 @@ body, html {
 	color: #d12222;
 	text-decoration: line-through;
 }
+.btn-rent-detail-2 {
+	font-size: 0;
+	text-align: center;
 
-.btn-rent-2 {
-	margin-left: 30px;
 }
 
-
-
-/*footer*/
+/*----------footer----------*/
 .page-footer {
 	background: #29323d;
-	min-height: 75px;
 }
-.logo-brand-2 {
-	float:left;
-	color: #f2cc46;
-	font-size: 24px;
-	margin-left: 10px;
-	margin-top: 20px;
-	font-family: 'PT Sans', sans-serif;
+.logo-brand-footer {
+	 float:right;
+	 color: #ffcd34;
+	 font-size: 24px;
+	 font-weight: bold;
+	 padding-left: 15px;
 }
-.nav-row-2 {
-	margin-right: 50px;
+.logo-footer {
+	float: left;
 }
-.nav-row-2 li {
-	display:inline;
-	padding-left: 40px;
+
+.nav-primary-footer {
+	float: right;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0;
 }
-.nav-row-2 li:nth-child(1) {
-    padding-left: 0;
+.nav-primary-footer ul {
+	margin:0;
 }
-.nav-row-2 a {
-	color: #ffffff;
-	text-decoration: none;
+ .footer-nav-menu_item {
+ 	display: inline-block;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
+ .footer-nav-menu_item a {
+ 	text-decoration: none;
+ 	color: #f5f5f5;
+ 	border: 2px solid rgba(0, 0, 0, 0);
+ 	padding: 15px 10px;
+ }
+ .footer-nav-menu_item a:hover {
+    border: 2px solid #636d76;
+ }
+ .footer-nav-menu_item a:active {
+ 	border: 2px solid #a6abb1;
+ }
+ .active-link-footer {
+ 	color:#f5f5f5;
+ 	padding: 15px 20px;
+ }
+ .btn-order-footer  {
+ 	display: inline-block;
+    padding: 15px 30px;
 }
-.nav-row-2 a:hover {
-color:black;
+.btn-order-footer a {
+    text-decoration: none;
+	color: #ffcd34;
 }
-.nav-row-2 .btn-order-2 {
-	color: #d7b745;
+.btn-order:hover {
+    color:#d4ac36;
+}
+.btn-order:active {
+	color:#bc9a37;
 }

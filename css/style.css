@@ -353,6 +353,9 @@ cite {
 	margin:0 auto;
 	padding: 0;
 }
+.nav-primary-footer ul {
+	margin: 0;
+}
  .footer-nav-menu_item {
  	display: inline-block;
  	padding-left: 10px;
