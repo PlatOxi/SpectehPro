@@ -27,6 +27,11 @@ body, html {
 .normal-weight {
 	font-weight: normal;
 }
+.seperate-area {
+	background-color: #000000;
+	width: 100%;
+	height: 10px;
+}
 /*----------Header----------*/
 .page-header {
     background-color:#ffcd34;
@@ -122,8 +127,216 @@ body, html {
 	color:#eaeaeb;
 	font-size: 16px;
 }
-.seperate-area {
-	background-color: #000000;
-	width: 100%;
-	height: 10px;
+/*--------Wooden-House--------*/
+.bg-wooden-house {
+	background-image: url(../Icon/Wooden-house-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.house-description {
+	background-color: #ffffff;
+	float: left;
+	width: 300px;
+	height: 240px;
+	padding-left: 30px;
+	margin-top: 100px;
+	padding-bottom: 15px;
+}
+.description-subtitle {
+	font-size: 20px;
+	font-weight: bold;
+	color: #202e3b;
+}
+.description {
+	font-size: 14px;
+	color: #202e3b;
+}
+.btn-description-detail {
+	text-decoration: none;
+	display: block;	
+	color: #1d333f;
+	background-color: #ffcd34;
+	width: 120px;
+	padding-left: 17px;
+	padding-top: 14px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	position: relative;
+}
+.btn-description-detail:after {
+	content:url(../Icon/Blue-arrow-right.png);
+	padding-left: 10px;
+	position: absolute;
+	top: 15px;
+	bottom: 14px;
+}
+/*--------high-rises-house--------*/
+.bg-high-rises-house {
+	background-image: url(../Icon/high-rises-house-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+/*---------stone-house---------*/
+.bg-stone-house {
+	background-image: url(../Icon/Stone-house-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.consult {
+	background-color:#202e3b;
+}
+ .consult-title {
+	color:#ffcd34;
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 24px;
+}
+.consult-form {
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.form-list {
+	border:1px solid #ffcd34;
+	background-color: #202e3b;
+	color:#ffffff;
+	padding: ;
+	margin-right: 15px;
+	outline: none;
+	width: 220px;
+	height: 45px;
+	padding-left: 20px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-list-date {
+	border:1px solid #ffcd34;
+	background-color: #202e3b;
+	color:#ffffff;
+	padding:;
+	margin-right: 15px;
+	outline: none;
+	width: 220px;
+	height: 45px;
+	padding-left: 20px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url(../Icon/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+}
+.form-list:focus {
+	border-color: #ffd966;
+}
+.consult-btn {
+	border:0px solid #ffcd34;
+	background-color: #ffcd34 ;
+	color: #202e3b;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	width: 220px;
+	height: 45px;
+	padding-right:10px;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+.consult-btn:hover {
+  background:#ffd966;
+}
+.consult-btn:active {
+	background:#f6bf16;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}
+:-moz-placeholder           {color:#fff;}
+:-ms-input-placeholder      {color:#fff;}
+/*----------content----------*/
+.action {
+	background: #f3f3f3;
+}
+.features {
+	background: #fff;
+}
+.features-item {
+	float:left;
+	margin-top: 20px;
+	margin-right: 25px;
+	font-weight: normal;
+	font-size:13px;
+	padding-bottom: 25px;
+}
+.features-item p {
+	display:inline-block;
+	padding-left: 15px;
+}
+
+/*----------footer----------*/
+.page-footer {
+	background: #29323d;
+}
+.logo-brand-footer {
+	 float:right;
+	 color: #ffcd34;
+	 font-size: 24px;
+	 font-weight: bold;
+	 padding-left: 15px;
+}
+.logo-footer {
+	float: left;
+}
+
+.nav-primary-footer {
+	float: right;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0;
+}
+.nav-primary-footer ul {
+	margin:0;
+}
+ .footer-nav-menu_item {
+ 	display: inline-block;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
+ .footer-nav-menu_item a {
+ 	text-decoration: none;
+ 	color: #f5f5f5;
+ 	border: 2px solid rgba(0, 0, 0, 0);
+ 	padding: 15px 10px;
+ }
+ .footer-nav-menu_item a:hover {
+    border: 2px solid #636d76;
+ }
+ .footer-nav-menu_item a:active {
+ 	border: 2px solid #a6abb1;
+ }
+ .active-link-footer {
+ 	color:#f5f5f5;
+ 	padding: 15px 20px;
+ }
+ .btn-order-footer  {
+ 	display: inline-block;
+    padding: 15px 30px;
+}
+.btn-order-footer a {
+    text-decoration: none;
+	color: #ffcd34;
+}
+.btn-order:hover {
+    color:#d4ac36;
+}
+.btn-order:active {
+	color:#bc9a37;
 }
