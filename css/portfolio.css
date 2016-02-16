@@ -123,9 +123,16 @@ body, html {
 .portfolio-nav-menu li:first-child {
 	padding-left: 0;
 }
+
 .portfolio-nav-menu a {
 	color:#eaeaeb;
 	font-size: 16px;
+}
+.portfolio-nav-menu a:hover {
+	font-weight: bold;
+}
+.portfolio-nav-menu a:active {
+	text-decoration: none;
 }
 /*--------Wooden-House--------*/
 .bg-wooden-house {
@@ -172,6 +179,12 @@ body, html {
 	position: absolute;
 	top: 15px;
 	bottom: 14px;
+}
+.btn-description-detail:hover {
+	background-color: #ffd966;
+}
+.btn-description-detail:active {
+	background-color: #f6bf16;
 }
 /*--------high-rises-house--------*/
 .bg-high-rises-house {
