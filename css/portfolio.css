@@ -123,7 +123,6 @@ body, html {
 .portfolio-nav-menu li:first-child {
 	padding-left: 0;
 }
-
 .portfolio-nav-menu a {
 	color:#eaeaeb;
 	font-size: 16px;
@@ -139,7 +138,7 @@ body, html {
 	background-image: url(../Icon/Wooden-house-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	min-height: 500px;
 }
 .house-description {
 	background-color: #ffffff;
@@ -149,6 +148,7 @@ body, html {
 	padding-left: 30px;
 	margin-top: 100px;
 	padding-bottom: 15px;
+	margin-bottom: 130px;
 }
 .description-subtitle {
 	font-size: 20px;
@@ -191,14 +191,14 @@ body, html {
 	background-image: url(../Icon/high-rises-house-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	min-height: 500px;
 }
 /*---------stone-house---------*/
 .bg-stone-house {
 	background-image: url(../Icon/Stone-house-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	min-height: 500px;
 }
 .consult {
 	background-color:#202e3b;
