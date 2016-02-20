@@ -20,7 +20,6 @@ body, html {
 .container{
 	overflow: hidden;
 	width: 960px;
-	padding: 15px 15px;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -35,6 +34,7 @@ body, html {
 /*----------Header----------*/
 .page-header {
     background-color:#ffcd34;
+    padding: 15px;
 }
 .logo-brand {
 	float:right;
@@ -45,7 +45,8 @@ body, html {
 }
 .logo {
 	float: left;
-	padding: 5px 15px;
+	padding-top: 5px;
+  padding-bottom: 5px;
 }
 .nav-primary {
 	float: right;
@@ -68,7 +69,7 @@ body, html {
  	text-decoration: none;
  	color: #98791b;
  	border: 2px solid rgba(0, 0, 0, 0);
- 	padding: 15px 10px;
+ 	padding: 13px 10px;
  }
  .nav-list a:hover {
     border: 2px solid #bc9d36;
@@ -101,9 +102,10 @@ body, html {
 	background-size: cover;
 	background-repeat: no-repeat;
   vertical-align: middle;
+  padding: 15px;
 }
 .contact-subtitle {
-	font-size: 26px;
+	  font-size: 26px;
     color: #ffcd34;
     display: inline-block;
     font-weight: normal;
@@ -116,8 +118,8 @@ body, html {
 }
 .contact-button {
   float: right;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .contact-btn {
   font-size: 18px;
@@ -128,18 +130,134 @@ body, html {
   padding: 10px 15px;
   text-decoration: none;
 }
+.contact-btn:hover {
+  background-color: #ffd966;
+}
+.contact-btn:active{
+  background-color: #f6bf16;
+}
 /*----------contact-info-and-reviews----------*/
+.contact-map-form {
+  padding: 15px;
+  background-color: #f3f3f3;
+}
 .contact-map {
 float: left;
-width: 40%;
+width: 64%;
+margin-right: 2%;
+border: 1px solid #d5d5d5;
+padding-right: 5px;
 }
 .contact-form {
   float: right;
-  width: 30%;
+  width: 32%;
+  margin:0;
+}
+.contact-number {
+  margin:0;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 40px;
+}
+.contact-number:before {
+  content: url(../Icon/telephone-icon.png);
+  position: absolute;
+  left: 0;
+
+}
+.contact-email {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 40px;
+}
+.contact-email:before {
+  content: url(../Icon/email-icon.png);
+  position: absolute;
+  left: 0;
+}
+.form-subtitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+.contact-form input {
+width: 280px;
+height: 40px;
+margin-bottom: 10px;
+border: 1px solid #d5d5d5;
+padding-left: 15px;
+padding-right: 15px;
+}
+::-webkit-input-placeholder {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
+::-moz-placeholder          {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
+:-moz-placeholder           {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
+:-ms-input-placeholder      {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
+
+.contact-form textarea {
+  width: 280px;
+  height: 80px;
+  border: 1px solid #d5d5d5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  text-align: center;
+  border: 0px solid #354b60;
+  background-color: #354b60;
+  text-decoration: none;
+  color: #fff;
+  width: 315px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: inherit;
+  height: 45px;
+  cursor: pointer;
+  outline: none;
+}
+.contact-form button:hover {
+background-color: #46617a;
+}
+.contact-form button:active {
+  background-color: #567999;
+}
+/*----------contact-reviews----------*/
+.contact-reviews {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.contact-reviews-subtitle {
+font-size: 26px;
+font-weight: bold;
+color: #202e3b;
+display: block;
+}
+.olga-recall {
+  text-align: center;
+  display: inline-block;
+  width: 220px;
+  font-size:14px;
+  font-style: italic;
+  box-sizing: border-box;
+  margin-right: 15px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.olga-recall blockquote {
+  margin: 0;
+}
+.olga-recall cite {
+  font-weight: bold;
+  color: #202e3b;
+  font-style: normal;
 }
 /*----------footer----------*/
 .page-footer {
   background: #29323d;
+  padding: 15px;
 }
 .logo-brand-footer {
    float:right;
@@ -170,7 +288,7 @@ width: 40%;
   text-decoration: none;
   color: #f5f5f5;
   border: 2px solid rgba(0, 0, 0, 0);
-  padding: 15px 10px;
+  padding: 13px 10px;
  }
  .footer-nav-menu_item a:hover {
     border: 2px solid #636d76;
@@ -187,7 +305,7 @@ width: 40%;
     padding: 15px 30px;
 }
 .btn-order-footer a {
-    text-decoration: none;
+  text-decoration: none;
   color: #ffcd34;
 }
 .btn-order:hover {
