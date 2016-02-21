@@ -393,7 +393,7 @@ cite {
 	background-color: #f6bf16;
 }
 .equipment-menu {
-	background:#f2f2f2;
+	background:#f3f3f3;
 }
 .equipment-menu-nav {
 	float: left;
@@ -470,6 +470,7 @@ background-color: #46617a;
 	width: 70%;
 	float: left;
 	margin-top: 30px;
+	background-color: #f3f3f3;
 }
 
 .equipment {
@@ -478,6 +479,7 @@ background-color: #46617a;
 	width: 50%;
 	padding-left: 90px;
 	padding-bottom: 55px;
+	background-color: #ffffff;
 }
 
 .clear-box {
