@@ -35,7 +35,7 @@ body, html {
 /*----------Header----------*/
 .page-header {
     background-color:#ffcd34;
-    padding: 15px;
+    padding: 15px 0;
 }
 .logo-brand {
 	float:right;
@@ -103,6 +103,7 @@ body, html {
  	background-size: cover;
  	color:#fff;
  	text-align: center;
+ 	padding: 15px 0;
 }
 
 .promo-slogan {
@@ -146,6 +147,7 @@ body, html {
 }
 .consult {
 	background-color:#202e3b;
+	padding: 15px 0;
 }
  .consult-title {
 	color:#ffcd34;
@@ -192,7 +194,7 @@ body, html {
 	border-color: #ffd966;
 }
 .consult-btn {
-	border:0px solid #ffcd34;
+	border:1px solid #ffcd34;
 	background-color: #ffcd34 ;
 	color: #202e3b;
 	cursor: pointer;
@@ -236,6 +238,8 @@ body, html {
 	padding-left: 15px;
 
 }
+.technik{
+}
 .technik-menu {
 	float:left;
 	font-weight: normal;
@@ -258,9 +262,9 @@ body, html {
 }
 .deals {
 	float: left;
-	margin-left: 60px;
 	font-weight: normal;
 	margin-top: 20px;
+	padding-left: 60px;
 }
 .deals-table {
 	text-align: left;
@@ -279,10 +283,10 @@ body, html {
 }
 .about {
 	background: #202e3b;
+	padding: 15px 0;
 }
 .about-number {
 	float:left;
-	margin-top: 20px;
 }
 .subtitles-about {
 	color:#dedede;
@@ -307,12 +311,11 @@ body, html {
 }
 .about-reviews {
 	float: right;
-	margin-top: 25px;
 }
 .about-reviews-item-olga {
 	margin-bottom: 10px;
 }
-blockquote {
+.about-reviews blockquote {
 	color:#ffffff;
 	display: inline-block;
 	margin-left: 20px;
@@ -322,7 +325,7 @@ blockquote {
 	vertical-align: top;
 	margin-top: 0;
 }
-cite {
+.about-reviews cite {
 	color:#f1b132;
 	font-weight: bold;
 	font-style: normal;
@@ -340,6 +343,7 @@ cite {
 	background-image: url(../Icon/rent.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 15px 0;
 }
 .slogan {
 	float: left;
@@ -355,8 +359,8 @@ cite {
 	color: #eff0f1;
 	font-weight: normal;
 	font-size: 16px;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 10px;
+	margin-bottom: 35px;
 }
 .btn-slogan {
 	float: right;
@@ -368,7 +372,7 @@ cite {
 	font-weight: normal;
 	font-size: 16px;
 	margin: 0 auto;
-	padding-top: 17px;
+	padding-top: 10px;
 }
 .rent-btn {
 	outline: none;
@@ -394,6 +398,7 @@ cite {
 }
 .equipment-menu {
 	background:#f3f3f3;
+	padding: 15px 0;
 }
 .equipment-menu-nav {
 	float: left;
@@ -467,19 +472,23 @@ background-color: #46617a;
 	background-color: #567999;
 }
 .equipments {
-	width: 70%;
 	float: left;
-	margin-top: 30px;
 	background-color: #f3f3f3;
+	padding-top: 45px;
+	text-align: center;
+	width: 67%;
+	padding-left: 3%;
 }
 
 .equipment {
 	float: left;
 	box-sizing:border-box;
-	width: 50%;
-	padding-left: 90px;
+	width: 300px;
+	text-align: center;
 	padding-bottom: 55px;
 	background-color: #ffffff;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .clear-box {
@@ -505,13 +514,20 @@ background-color: #46617a;
 .Cat-315D {
 	font-size: 21px;
 	font-weight: bold;
+	margin: 0;
+	text-align: left;
+	margin-bottom: 25px;
+	padding-left: 26px;
 }
+
 .price-month {
 	font-weight: bold;
 	font-size: 18px;
 	margin:0 auto;
 	padding-bottom:20px;
 	padding-top: 40px;
+	text-align: left;
+	padding-left: 26px;
 }
 .price {
 	font-size: 21px;
@@ -551,23 +567,24 @@ background-color: #ffd966;
 .page-number li {
 	display: inline-block;
 	color: white;
-	margin-left: 20px;
-	}
-	.page-number a {
-		text-decoration: none;
-		color:#353535;
-	}
-	.active-page-number {
-		background-color:#354b60;
-		border: 0px solid #354b60;
-		padding: 1px 6px;
-		border-radius: 3px;
+}
+.page-number a {
+	text-decoration: none;
+	color:#353535;
+}
+.active-page-number {
+	background-color:#354b60;
+	border: 0px solid #354b60;
+	padding: 1px 6px;
+	border-radius: 3px;
 }
 .page-number {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 45px;
-	text-align: center;
 	clear: both;
+	width: 150px;
+	padding-left: 220px;
+	display: block;
 }
 .page-number a{
  	border: 1px solid rgba(0, 0, 0, 0);
@@ -587,6 +604,7 @@ background-color: #ffd966;
 	background-image: url(../Icon/Specials.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 15px 0;
 }
 .subtitles-specials {
 	font-family:'PT Sans', sans-serif;
@@ -595,11 +613,11 @@ background-color: #ffd966;
 	color: #ececec;
 }
 .special-equipment {
-	width: 100%;
+	width: ;
 }
 .special-product {
   float: left;
-  width: 31%;
+  width: 300px;
   background-color: #ffffff;
   margin-right:20px;
   padding-bottom: 30px;
@@ -660,6 +678,7 @@ background-color: #ffd966;
 	background-image: url(../Icon/Portfolio-nav-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 15px 0;
 }
 .portfolio-subtitle {
 	float: left;
@@ -689,6 +708,7 @@ background-color: #ffd966;
 .portfolio-nav-menu a {
 	color:#eaeaeb;
 	font-size: 16px;
+	border: 0px solid #eaeaeb;
 }
 .portfolio-nav-menu a:hover {
 	font-weight: bold;
@@ -701,6 +721,7 @@ background-color: #ffd966;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 500px;
+	padding: 15px 0;
 }
 .house-description {
 	background-color: #ffffff;
@@ -753,15 +774,18 @@ background-color: #ffd966;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 500px;
+	padding: 15px 0;
 }
 .bg-stone-house {
 	background-image: url(../Icon/Stone-house-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 500px;
+	padding: 15px 0;
 }
 .consult {
 	background-color:#202e3b;
+	padding: 15px 0;
 }
  .consult-title {
 	color:#ffcd34;
@@ -839,6 +863,7 @@ background-color: #ffd966;
 }
 .features {
 	background: #fff;
+	padding: 15px 0;
 }
 .features-item {
 	float:left;
@@ -858,7 +883,7 @@ background-color: #ffd966;
 	background-size: cover;
 	background-repeat: no-repeat;
   vertical-align: middle;
-  padding: 15px;
+  padding: 15px 0;
 }
 .contact-subtitle {
 	  font-size: 26px;
@@ -893,7 +918,7 @@ background-color: #ffd966;
   background-color: #f6bf16;
 }
 .contact-map-form {
-  padding: 15px;
+  padding: 15px 0;
   background-color: #f3f3f3;
 }
 .contact-map {
@@ -945,6 +970,7 @@ margin-bottom: 10px;
 border: 1px solid #d5d5d5;
 padding-left: 15px;
 padding-right: 15px;
+outline: none;
 }
 ::-webkit-input-placeholder {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
 ::-moz-placeholder          {color:#b0b0b0;font-family:'PT Sans', sans-serif;}
@@ -959,6 +985,7 @@ padding-right: 15px;
   padding-right: 15px;
   padding-top: 15px;
   margin-bottom: 10px;
+  outline: none;
 }
 
 .contact-form button {
@@ -983,7 +1010,7 @@ background-color: #46617a;
 }
 .contact-reviews {
   background-color: #ffffff;
-  padding: 15px;
+  padding: 15px 0;
 }
 .contact-reviews-subtitle {
 font-size: 26px;
@@ -1014,7 +1041,7 @@ display: block;
 /*----------footer----------*/
 .page-footer {
   background: #29323d;
-  padding: 15px;
+  padding: 15px 0;
 }
 .logo-brand-footer {
    float:right;
